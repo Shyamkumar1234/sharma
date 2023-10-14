@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+</head>
+<style>
+    .course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+p{
+    color: #777;
+    font-size: 17px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.course-col{
+    flex-basis: 31%;
+    background: #86e4e7;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+    
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+
+}
+.layer{
+    background:transparent; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: darkblue;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.my img{
+    
+    width: 100%;
+    height: 300px;
+}
+.my{
+    text-align: center;
+}
+
+.my h1{
+    position: absolute;
+    color: black;
+    
+    
+    margin-top: 150px;
+    margin-left: 50%;
+    transform: translate(-50%,-50% );
+    font-size: 60px;
+  
+
+}
+.navbar{
+    background-color: black;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+   color: red;
+   
+}
+
+
+
+
+</style>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="course_1.html">Courses</a></li>
+                <li><a href="#">Contact us</a></li>
+            
+           
+        </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div class="my">
+        <h1>The Aero Classes</h1>
+       
+    <img src="https://st4.depositphotos.com/1008648/21376/i/450/depositphotos_213763864-stock-photo-colorful-blue-abstract-light-effect.jpg" alt="">
+    
+</div>
+
+
+
+
+    <section class="course">
+        <h1 style="color: cornflowerblue;">Available Courses</h1>
+        <p style="color: black;">Online and offline Classes are available by The Aero Classes.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>9th - 10th<br>(online: ₹ 4000/-<br>offline: ₹ 8000/-)</</h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : 07:00AM - 9:30AM </p>
+
+            </div>
+            <div class="course-col">
+                <h3>11th -12th<br>(online: ₹ 20000/-<br>offline: ₹ 50000/-)</h3> </h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : 03:00PM - 4:30PM</p>
+
+            </div>
+            <div class="course-col">
+                <h3>B.Sc<br>(online: ₹ 4000/-<br>offline: ₹ 11000/-)</h3></h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : 10:00AM - 12:00PM</p>
+
+            </div>
+            
+        </div>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>BCA & MCA<br>(online: ₹ 4000/-<br>offline: ₹ 11000/-)</h3></h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : Not Available</p>
+
+            </div>
+            <div class="course-col">
+                <h3>IIT - JEE<br>(online: ₹ 50000/-<br>offline: ₹ 120000/-)</h3></h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : 06:30AM - 10:30PM </p>
+
+            </div>
+            <div class="course-col">
+                <h3>NEET<br>(online: ₹ 50000/-<br>offline: ₹ 120000/-)</h3>
+                <p>Here you can prepare for any compatative exams.  Here you can read in offline and online .
+                    
+                    Here you will get complete study material like notes , Daily practice problem that important according to exam point of view.<br><br>Timing : 06:30AM - 10:30PM
+                </p>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    
+</body>
+</html>
